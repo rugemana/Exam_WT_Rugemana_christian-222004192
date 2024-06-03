@@ -1,22 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Virtual Insurance Planning Workshops Platform</title>
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-image: url('path/to/your/wallpaper.jpg');
+            background-image: url('2.jpg'); /* Replace with the actual path to your wallpaper image */
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
             color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
 
         .container {
             width: 80%;
-            margin: 0 auto;
+            max-width: 1200px;
+            background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent background for readability */
+            border-radius: 10px;
             padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
         header {
@@ -38,12 +47,27 @@
 
         nav ul li a {
             text-decoration: none;
-            color: #333;
+            color: #007BFF;
             font-weight: bold;
+            transition: color 0.3s;
         }
 
         nav ul li a:hover {
-            color: #555;
+            color: #0056b3;
+        }
+
+        main {
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            color: #777;
         }
     </style>
 </head>
@@ -54,9 +78,9 @@
         </header>
         <nav>
             <ul>
-                <li><a href="about">About</a></li>
+                <li><a href="about.php">About</a></li>
                 <li><a href="user.php">Get Started</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="contacts.php">Contact</a></li>
             </ul>
         </nav>
         <main>
